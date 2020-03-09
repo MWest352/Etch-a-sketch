@@ -8,18 +8,34 @@
 }
 
 
+#title {
+  
+  font-size: 60px;
+  font-family: 'Monoton', cursive;
+  margin: auto;
+  text-align: center;
+  
+  
+  background: linear-gradient(to right, rgb(248, 2, 96) 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  
 
+}
 
 #main {
 padding: 5px;
-border: solid black 5px;
-background-color: black;  
 }
 
 
 #container {
 display: grid;
-border: solid blue 1px;
 width: 50vw;
 height: 50vw;
 margin: 0 auto;
@@ -35,13 +51,17 @@ border: 1px solid #ddd;
 
 
 
-body {
-background: rgb(15, 15, 15);
+body{
+  background-size: 100% 100%;
+  background-image: url(https://steemitimages.com/p/W5LtFUPm6g7111bbdcuxu3bfUg5qaCq8seb5paCtrrT7zRytxBXGchJzbmaeTencgaEmPWsVXWD4CuXNH1t6VJPmQ3CAo3esD4d41zg3ZuvHrTCNcnAuuVnjGJr6n3X2FbDpNSf3uMFkWVrg9zq5Htew2GWe9?format=match&mode=fit);
+  
 }
+
 
 #clrBtn {
 width: 50%;
 margin: auto;
+margin-bottom: 15px;
 text-align: center;
 border-radius: 8px;
 border: 3px solid rgb(0, 40, 70);
